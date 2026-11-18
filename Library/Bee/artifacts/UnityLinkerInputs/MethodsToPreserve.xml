@@ -1,0 +1,13 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="MainMenuUI">
+			<method name="PlayGame"/>
+		</type>
+		<type fullname="PauseManager">
+			<method name="GoToMenu"/>
+			<method name="GoToMenu"/>
+			<method name="GoToMenu"/>
+			<method name="Resume"/>
+		</type>
+	</assembly>
+</linker>

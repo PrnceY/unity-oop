@@ -12,8 +12,7 @@ public class GameOver : MonoBehaviour
 
     void HandleDeath()
     {
-        Debug.Log("GAME OVER");
-        Time.timeScale = 0f;
+        FindFirstObjectByType<HUD>()?.ShowGameOver();
     }
 
     void OnDestroy() { playerHealth.OnDeath -= HandleDeath; }

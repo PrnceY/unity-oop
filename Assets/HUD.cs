@@ -8,6 +8,8 @@ public class HUD : MonoBehaviour
     [SerializeField] private TextMeshProUGUI ammoText;
     [SerializeField] private TextMeshProUGUI objectiveText;
     [SerializeField] private Slider suspicionBar;
+    [SerializeField] private GameObject winPanel;
+    [SerializeField] private GameObject gameOverPanel;
 
     private Health playerHealth;
     private WeaponHolder weaponHolder;
@@ -43,11 +45,19 @@ public class HUD : MonoBehaviour
         if (id == "collect_intel") objectiveText.text = "Objective: Reach extraction";
     }
 
-    void ShowWin()
+        void ShowWin()
     {
         objectiveText.text = "Mission Complete!";
         Time.timeScale = 0f;
-        Debug.Log("YOU WIN");
+        if (winPanel != null) winPanel.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void ShowGameOver()
+    {
+        Time.timeScale = 0f;
+        if (gameOverPanel != null) gameOverPanel.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void OnDestroy()
