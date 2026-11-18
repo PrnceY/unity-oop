@@ -4,6 +4,7 @@ public class WeaponHolder : MonoBehaviour
 {
     [SerializeField] private Weapon[] weapons;
     private int current;
+    public Weapon CurrentWeapon => weapons.Length > 0 ? weapons[current] : null;
 
     void Start() { Equip(0); }
 

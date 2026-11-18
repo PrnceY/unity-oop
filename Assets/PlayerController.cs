@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 5f;
     private Rigidbody rb;
     private Vector3 moveInput;
+    public float interactRange = 3f;
 
     void Start()
     {
@@ -20,6 +21,22 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
+            if (Input.GetKeyDown(KeyCode.F)) { Debug.Log("F pressed"); TryInteract(); }
+    }
+
+    void TryInteract()
+    {
+        Camera cam = GetComponentInChildren<Camera>();
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit, interactRange))
+        {
+            var interactable = hit.collider.GetComponent<IInteractable>();
+            if (interactable != null)
+            {
+                Debug.Log(interactable.Prompt);
+                interactable.Interact(gameObject);
+            }
+        }
     }
 
     bool IsGrounded()

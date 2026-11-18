@@ -7,7 +7,7 @@ Darwin version:          25.6.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-11-17T12:41:01Z
+Date:                    2026-11-18T01:44:12Z
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/MacOS/Unity
@@ -21,9 +21,9 @@ AssetImportWorkerHW1
 -logFile
 Logs/AssetImportWorkerHW1.log
 -srvPort
-53792
+54518
 -parentPid
-44196
+47598
 -analyticsCloudUserId
 18968549974931
 -analyticsCloudProjectId
@@ -88,7 +88,7 @@ Successfully changed project path to: /Users/princeyu/SpyGame
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
 Player connection [8343871872]  Target information:
 
-Player connection [8343871872]  * "[IP] 192.168.50.169 [Port] 0 [Flags] 2 [Guid] 2251821596 [EditorId] 2251821596 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8343871872]  * "[IP] 10.16.150.185 [Port] 0 [Flags] 2 [Guid] 1243445023 [EditorId] 1243445023 [Version] 1048832 [Id] OSXEditor(0,Princes-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8343871872] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8343871872] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -96,7 +96,6 @@ JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
   - Resource namespace: 6af4cd5bbd58de3d1bdf14e634677e71
@@ -106,6 +105,7 @@ Initialising UDS system complete:
   - Hashmap size: 4194304
   - Service connected: true
   - Service working directory: Library/DataStore/
+Library Redirect Path: Library/
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -134,13 +134,13 @@ Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Res
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56247
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56638
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.9f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000425 seconds.
+Registered in 0.000352 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -149,33 +149,33 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.349 seconds
-Domain Reload Profiling: 608ms
-	BeginReloadAssembly (50ms)
+- Finished resetting the current domain, in  0.333 seconds
+Domain Reload Profiling: 601ms
+	BeginReloadAssembly (47ms)
 	RebuildCommonClasses (3ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (169ms)
-		LoadAssemblies (49ms)
-		TypeCache.Refresh (120ms)
-			TypeCache.ScanAssembly (110ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (47ms)
+		TypeCache.Refresh (125ms)
+			TypeCache.ScanAssembly (115ms)
 		AnalyzeDomain (0ms)
-	FinalizeReload (349ms)
+	FinalizeReload (334ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (42ms)
-			ProcessInitializeOnLoadMethodAttributes (209ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (45ms)
+			ProcessInitializeOnLoadMethodAttributes (187ms)
 Initializing Unity extensions:
 [Licensing::Module] Connecting to the Unity Licensing Client...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu" at "2026-11-17T12:41:02.104559Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu" at "2026-11-18T01:44:13.945975Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.19.0+4cc3dda
-  Session Id:              8bc9bb8d5bd44fa7b92552dd7fe1bddd
-  Correlation Id:          5b1321ac23835c25200e4cf3ab666337
-  External correlation Id: 4779909221780135903
+  Session Id:              e89be2183bef450583307abcd4d853ac
+  Correlation Id:          daf690f6603bfe8697d9fd17e168392c
+  External correlation Id: 7031921378019775044
   Machine Id:              objKsXFLQghjl6fGlnKQLMooNEM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-princeyu" (connect: 0.00s, validation: 0.00s, handshake: 0.19s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu-notifications" at "2026-11-17T12:41:02.294975Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-princeyu" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu-notifications" at "2026-11-18T01:44:14.003044Z"
 [Licensing::Module] The re-connection attempt was successful.
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -199,24 +199,24 @@ Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
 - Finished resetting the current domain, in  0.345 seconds
-Domain Reload Profiling: 718ms
-	BeginReloadAssembly (94ms)
-		DisableScriptedObjects (4ms)
-		CreateAndSetChildDomain (12ms)
+Domain Reload Profiling: 715ms
+	BeginReloadAssembly (93ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
 	RebuildCommonClasses (4ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (23ms)
+	initialDomainReloadingComplete (21ms)
 	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (124ms)
-		TypeCache.Refresh (69ms)
-			TypeCache.ScanAssembly (60ms)
-		AnalyzeDomain (18ms)
+		LoadAssemblies (111ms)
+		TypeCache.Refresh (75ms)
+			TypeCache.ScanAssembly (65ms)
+		AnalyzeDomain (19ms)
 			BuildScriptInfoCaches (17ms)
 	FinalizeReload (346ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (132ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
@@ -227,21 +227,7 @@ Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support con
 Launching external process: /Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4696 unused Assets / (9.0 MB). Loaded Objects now: 5557.
-Memory consumption went from 465.7 MB to 456.7 MB.
-Total: 5.257458 ms (FindLiveObjects: 0.291583 ms CreateObjectMapping: 0.080875 ms MarkObjects: 3.548958 ms  DeleteObjects: 1.272708 ms)
+Unloading 4737 unused Assets / (8.5 MB). Loaded Objects now: 5617.
+Memory consumption went from 469.0 MB to 460.5 MB.
+Total: 5.741500 ms (FindLiveObjects: 0.312125 ms CreateObjectMapping: 0.089250 ms MarkObjects: 3.709667 ms  DeleteObjects: 1.571375 ms)
 
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.83 ms, found 2 plugins.
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5557.
-Memory consumption went from 460.4 MB to 454.9 MB.
-Total: 10.733750 ms (FindLiveObjects: 0.288709 ms CreateObjectMapping: 0.154375 ms MarkObjects: 9.125500 ms  DeleteObjects: 1.087375 ms)
-
-Prepare: number of updated asset objects reloaded= 0

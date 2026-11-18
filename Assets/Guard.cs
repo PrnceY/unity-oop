@@ -30,6 +30,7 @@ public class Guard : Enemy
     void DoChase()
     {
         transform.position = Vector3.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+        DetectionManager.Instance?.AddSuspicion(15f * Time.deltaTime);
     }
 
     void DoAttack()
