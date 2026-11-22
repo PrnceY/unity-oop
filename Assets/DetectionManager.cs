@@ -9,6 +9,8 @@ public class DetectionManager : MonoBehaviour
     public float drainRate = 2f;
     public event Action<float> OnSuspicionChanged;
     public event Action OnAlerted;
+    public AudioClip alertSound;
+    private AudioSource audioSource;
 
     private bool alerted;
 
@@ -17,6 +19,7 @@ public class DetectionManager : MonoBehaviour
         if (Instance != null) { Destroy(gameObject); return; }
         Instance = this;
         Application.targetFrameRate = 60;
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     void Update()
@@ -38,7 +41,7 @@ public class DetectionManager : MonoBehaviour
     {
         alerted = true;
         Debug.Log("ALERT! You've been fully detected!");
+        if (alertSound) audioSource.PlayOneShot(alertSound);
         OnAlerted?.Invoke();
-        GameObject.FindWithTag("Player").GetComponent<Health>()?.TakeDamage(999f);
     }
 }

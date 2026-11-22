@@ -247,9 +247,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -447,7 +451,7 @@ ScriptsOnlyBuild:
     className: OnScreenStick
   - hash:
       serializedVersion: 2
-      Hash: e9008c1d199f89e1a83ec51309006fd1
+      Hash: 48f62517bf7fa834edea9e6b5cf0a961
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Rifle
@@ -619,6 +623,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro
     className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 2652e4cab0cc50bdbf0a4a96b0fa52ec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuUI
   - hash:
       serializedVersion: 2
       Hash: bfa9d6dfbc3c74a843a3b197bdcc6639
@@ -1005,12 +1015,6 @@ ScriptsOnlyBuild:
     className: VolumeProfile
   - hash:
       serializedVersion: 2
-      Hash: b0bd38b48e1011b725cb090c2fee6451
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HackableTerminal
-  - hash:
-      serializedVersion: 2
       Hash: 8a17a72dd96818fd228df68773f9699c
     assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1149,7 +1153,7 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: 838c1013b9787d0a57cb28d7446bd229
+      Hash: d02e1717db9803663d0137c18ff3e902
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Pistol
@@ -1215,16 +1219,16 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: bc9e5df4730dc2e3e91e4b81a4e8e6b1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameOver
-  - hash:
-      serializedVersion: 2
       Hash: 311bb06b8388de99522368e00354d05f
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: 
     className: OnTilePostProcessFeature
+  - hash:
+      serializedVersion: 2
+      Hash: cce35b387c5250596216d89192d9a523
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseManager
   - hash:
       serializedVersion: 2
       Hash: 4d6cbfe957f824ac526ff4cb56a388c8
@@ -1485,7 +1489,7 @@ ScriptsOnlyBuild:
     className: InputActionDebuggerWindow
   - hash:
       serializedVersion: 2
-      Hash: f05932b8613d4eddb67a9ab08e33bf64
+      Hash: 661f60093b2d1f2cedbf26a5a3e0a4fe
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DetectionManager
@@ -1543,6 +1547,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: b0bd38b48e1011b725cb090c2fee6451
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HackableTerminal
   - hash:
       serializedVersion: 2
       Hash: a90f6a00b23520788be7d89ee3b0773d
@@ -1611,19 +1621,13 @@ ScriptsOnlyBuild:
     className: VertexJitter
   - hash:
       serializedVersion: 2
-      Hash: cce35b387c5250596216d89192d9a523
+      Hash: bc9e5df4730dc2e3e91e4b81a4e8e6b1
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PauseManager
-  - hash:
-      serializedVersion: 2
-      Hash: 2652e4cab0cc50bdbf0a4a96b0fa52ec
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainMenuUI
+    className: GameOver
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameScene.unity
-  nativeClasses: 3000000082000000730000003100000000000000060000001b0000001c0000001500000012000000720000000200000081000000d500000009000000480000000d000000c0a21927360100000b00000037000000080000007e0000000f1baa530a05df37130000007bce860a4e0000001e0000006200000005000000930000002c0100005e000000740000002f0000008d000000c400000001000000040000005900000080000000140000006c000000e0000000de00000068000000df000000510000009d00000003000000b4000000170000002b000000190000002100000036000000380000004100000088000000i
+  nativeClasses: 3000000082000000730000003100000000000000060000001b0000001c0000001500000012000000720000000200000081000000d500000009000000480000000d000000c0a21927360100000b00000037000000080000007e0000000f1baa530a05df37130000007bce860a4e0000001e0000006200000005000000930000002c0100005e000000740000002f0000008d000000c400000001000000040000005900000080000000140000006c000000e0000000de00000068000000df000000510000009d00000003000000b4000000170000002b00000053000000190000004000000021000000360000003800000041000000880000007de237150f010000i
   playerPath: /Users/princeyu/SpyGame/SpyGame.app

@@ -12,6 +12,9 @@ public abstract class Weapon : MonoBehaviour
 
     protected Camera cam;
     private float nextFireTime;
+    private AudioSource audioSource;
+    public AudioClip fireSound;
+    public AudioClip reloadSound;
 
     public int CurrentAmmo { get; protected set; }
     public bool IsReloading { get; private set; }
@@ -22,6 +25,11 @@ public abstract class Weapon : MonoBehaviour
     {
         cam = GetComponentInParent<Camera>();
         CurrentAmmo = magazineSize;
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.spatialBlend = 0f;
+        audioSource.playOnAwake = false;
     }
 
     protected virtual void OnDisable() { IsReloading = false; }
@@ -34,6 +42,7 @@ public abstract class Weapon : MonoBehaviour
         nextFireTime = Time.time + fireRate;
         CurrentAmmo--;
         Debug.Log($"{weaponName} fired | Ammo: {CurrentAmmo}");
+        if (fireSound) audioSource.PlayOneShot(fireSound);
         Shoot();
     }
 
@@ -57,6 +66,7 @@ public abstract class Weapon : MonoBehaviour
     {
         IsReloading = true;
         Debug.Log($"{weaponName} reloading...");
+        if (reloadSound) audioSource.PlayOneShot(reloadSound);
         yield return new WaitForSeconds(reloadTime);
         CurrentAmmo = magazineSize;
         IsReloading = false;
