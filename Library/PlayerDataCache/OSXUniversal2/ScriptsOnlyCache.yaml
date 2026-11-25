@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Bullet
     - DetectionManager
     - ExtractionZone
     - GameOver
@@ -15,6 +16,7 @@ ScriptsOnlyBuild:
     - PauseManager
     - Pistol
     - PlayerController
+    - Recoil
     - Rifle
     - WeaponHolder
     Unity.InputSystem.dll:
@@ -262,6 +264,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {fileID: 11500000, guid: 3b1d8587301fc4476bf2958eedc3601a, type: 3}
+    - Class: 114
       Script: {fileID: 11500000, guid: 9c7a9295a54b548b5acea4cc23be5f5f, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: 32455c6c07d734dc89056f133e9ecbc5, type: 3}
@@ -287,6 +291,8 @@ ScriptsOnlyBuild:
       Script: {fileID: 11500000, guid: bb16a7644b7eb47a6a96c29df23ec5f1, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: cc76fe55e997b40fabc344a1c3cefdab, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e04a7977e5b014bd3b88b21f002524ae, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: b5cbaaba896bf4fd8b0ffcc0d53c57e2, type: 3}
     - Class: 114
@@ -332,6 +338,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -451,7 +459,7 @@ ScriptsOnlyBuild:
     className: OnScreenStick
   - hash:
       serializedVersion: 2
-      Hash: 48f62517bf7fa834edea9e6b5cf0a961
+      Hash: a1f1e81d5f28835a968014102ad0dbbf
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Rifle
@@ -1153,7 +1161,7 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: d02e1717db9803663d0137c18ff3e902
+      Hash: 686d5347f61f437f60351296bfc0daa3
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Pistol
@@ -1217,6 +1225,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: bc9e5df4730dc2e3e91e4b81a4e8e6b1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameOver
   - hash:
       serializedVersion: 2
       Hash: 311bb06b8388de99522368e00354d05f
@@ -1621,13 +1635,19 @@ ScriptsOnlyBuild:
     className: VertexJitter
   - hash:
       serializedVersion: 2
-      Hash: bc9e5df4730dc2e3e91e4b81a4e8e6b1
+      Hash: 679703a1202cf73c3f1849a21f3969d2
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: GameOver
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: 62ee9f3f120eb1e295423e9619fc246f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Recoil
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameScene.unity
-  nativeClasses: 3000000082000000730000003100000000000000060000001b0000001c0000001500000012000000720000000200000081000000d500000009000000480000000d000000c0a21927360100000b00000037000000080000007e0000000f1baa530a05df37130000007bce860a4e0000001e0000006200000005000000930000002c0100005e000000740000002f0000008d000000c400000001000000040000005900000080000000140000006c000000e0000000de00000068000000df000000510000009d00000003000000b4000000170000002b00000053000000190000004000000021000000360000003800000041000000880000007de237150f010000i
+  nativeClasses: 3000000082000000730000003100000000000000060000001b0000001c0000001500000012000000720000000200000081000000d500000009000000480000000d000000c0a21927360100000b00000037000000080000007e0000000f1baa530a05df37130000007bce860a4e0000001e0000006200000005000000930000002c0100005e000000740000002f0000008d000000c400000001000000040000005900000080000000140000006c000000e0000000de00000068000000df000000510000009d00000003000000b4000000170000002b0000005300000019000000400000002100000036000000380000004100000088000000870000007de237150f010000i
   playerPath: /Users/princeyu/SpyGame/SpyGame.app

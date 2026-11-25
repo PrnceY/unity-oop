@@ -1,5 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="Bullet" preserve="nothing"/>
 		<type fullname="DetectionManager" preserve="nothing"/>
 		<type fullname="ExtractionZone" preserve="nothing"/>
 		<type fullname="GameOver" preserve="nothing"/>
@@ -14,6 +15,7 @@
 		<type fullname="PauseManager" preserve="nothing"/>
 		<type fullname="Pistol" preserve="nothing"/>
 		<type fullname="PlayerController" preserve="nothing"/>
+		<type fullname="Recoil" preserve="nothing"/>
 		<type fullname="Rifle" preserve="nothing"/>
 		<type fullname="WeaponHolder" preserve="nothing"/>
 	</assembly>
@@ -111,6 +113,7 @@
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>

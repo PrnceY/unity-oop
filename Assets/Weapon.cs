@@ -9,12 +9,15 @@ public abstract class Weapon : MonoBehaviour
     protected float fireRate = 0.3f;
     protected int magazineSize = 12;
     protected float reloadTime = 1.5f;
+    protected float recoilAmount = 1.5f;
 
     protected Camera cam;
     private float nextFireTime;
     private AudioSource audioSource;
     public AudioClip fireSound;
     public AudioClip reloadSound;
+    public GameObject bulletPrefab;
+    public Transform muzzlePoint;
 
     public int CurrentAmmo { get; protected set; }
     public bool IsReloading { get; private set; }
@@ -43,16 +46,16 @@ public abstract class Weapon : MonoBehaviour
         CurrentAmmo--;
         Debug.Log($"{weaponName} fired | Ammo: {CurrentAmmo}");
         if (fireSound) audioSource.PlayOneShot(fireSound);
+        Recoil.Instance?.ApplyRecoil(recoilAmount);
         Shoot();
     }
 
-    protected virtual void Shoot()
+        protected virtual void Shoot()
     {
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit, range))
+        if (bulletPrefab != null && muzzlePoint != null)
         {
-            var target = hit.collider.GetComponentInParent<IDamageable>();
-            target?.TakeDamage(damage);
-            Debug.Log($"{weaponName} hit {hit.collider.name} | Ammo: {CurrentAmmo}");
+            GameObject b = Instantiate(bulletPrefab, muzzlePoint.position, cam.transform.rotation);
+            b.GetComponent<Bullet>().damage = damage;
         }
     }
 

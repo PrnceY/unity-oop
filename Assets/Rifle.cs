@@ -9,6 +9,7 @@ public class Rifle : Weapon
         fireRate = 0.1f;
         magazineSize = 30;
         reloadTime = 2f;
+        recoilAmount = 2.5f;
         base.Awake();
     }
 }
