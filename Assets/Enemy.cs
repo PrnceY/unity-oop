@@ -24,9 +24,8 @@ public abstract class Enemy : MonoBehaviour
     {
         float dist = Vector3.Distance(transform.position, player.position);
 
-        if (dist <= attackRange)        ChangeState(EnemyState.Attack);
-        else if (dist <= sightRange)    ChangeState(EnemyState.Chase);
-        else                            ChangeState(EnemyState.Patrol);
+        if (dist <= attackRange)    ChangeState(EnemyState.Attack);
+        else                        ChangeState(EnemyState.Chase);
 
         HandleState();
     }

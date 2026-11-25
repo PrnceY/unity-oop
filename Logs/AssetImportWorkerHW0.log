@@ -2,12 +2,21 @@ Unity Editor version:    6000.6.9f1 (8c45277fb9c5)
 Branch:                  6000.6/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 26.7.3 (Build 25G342)
-Darwin version:          25.6.0
+macOS version:           Version 27.2.1 (Build 26B131)
+Darwin version:          27.2.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-11-23T02:10:52Z
+Date:                    2026-11-25T08:53:40Z
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 6af4cd5bbd58de3d1bdf14e634677e71
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/MacOS/Unity
@@ -21,9 +30,9 @@ AssetImportWorkerHW0
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-55004
+50439
 -parentPid
-24443
+5787
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -86,29 +95,21 @@ Successfully changed project path to: /Users/princeyu/SpyGame
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8376410688]  Target information:
+Player connection [8611631872]  Target information:
 
-Player connection [8376410688]  * "[IP] 10.16.141.38 [Port] 0 [Flags] 2 [Guid] 4093532033 [EditorId] 4093532033 [Version] 1048832 [Id] OSXEditor(0,Princes-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8611631872]  * "[IP] 192.168.50.169 [Port] 0 [Flags] 2 [Guid] 4186854367 [EditorId] 4186854367 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8376410688] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8376410688] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8611631872] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8611631872] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
-Initialising UDS system complete:
-  - System type: Client
-  - Resource namespace: 6af4cd5bbd58de3d1bdf14e634677e71
-  - Shared memory size: 1073741824
-  - Command buffer id: 1052672
-  - Command buffer size: 8192
-  - Hashmap size: 4194304
-  - Service connected: true
-  - Service working directory: Library/DataStore/
 Active build profile path: `Assets/Settings/Build Profiles/macOS.asset`
 Got setting from build profile YAML, name `m_BuildTarget`, value `2`
 Got setting from build profile YAML, name `m_Subtarget`, value `2`
+Refreshing native plugins compatible for Editor in 4.24 ms, found 2 plugins.
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -138,13 +139,13 @@ Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Res
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56473
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56802
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.9f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000816 seconds.
+Registered in 0.000373 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -153,33 +154,33 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.240 seconds
-Domain Reload Profiling: 494ms
-	BeginReloadAssembly (45ms)
-	RebuildCommonClasses (4ms)
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 502ms
+	BeginReloadAssembly (50ms)
+	RebuildCommonClasses (3ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (167ms)
-		LoadAssemblies (44ms)
-		TypeCache.Refresh (119ms)
-			TypeCache.ScanAssembly (109ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (49ms)
+		TypeCache.Refresh (117ms)
+			TypeCache.ScanAssembly (107ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (241ms)
+	FinalizeReload (246ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (43ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (44ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 Initializing Unity extensions:
 [Licensing::Module] Connecting to the Unity Licensing Client...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu" at "2026-11-23T02:10:53.396333Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu" at "2026-11-25T08:53:41.93382Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.19.0+4cc3dda
-  Session Id:              68ebf5d7b93a428e89e8c19def4b4904
-  Correlation Id:          0a68a7237bded1825e43f6c8ab05f21d
-  External correlation Id: 8897712250292052346
+  Session Id:              b50df014077c46ef96326cdf1ea19981
+  Correlation Id:          048b6f75b380aaae9d479ca19b1b2ae2
+  External correlation Id: 7769540694885803472
   Machine Id:              objKsXFLQghjl6fGlnKQLMooNEM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-princeyu" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu-notifications" at "2026-11-23T02:10:53.465004Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-princeyu" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu-notifications" at "2026-11-25T08:53:41.985266Z"
 [Licensing::Module] The re-connection attempt was successful.
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -203,26 +204,26 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.363 seconds
-Domain Reload Profiling: 747ms
-	BeginReloadAssembly (100ms)
-		DisableScriptedObjects (8ms)
-		CreateAndSetChildDomain (14ms)
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 731ms
+	BeginReloadAssembly (107ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (23ms)
 	RebuildCommonClasses (4ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (248ms)
-		LoadAssemblies (115ms)
-		TypeCache.Refresh (75ms)
-			TypeCache.ScanAssembly (65ms)
-		AnalyzeDomain (20ms)
-			BuildScriptInfoCaches (18ms)
-	FinalizeReload (364ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (114ms)
+		TypeCache.Refresh (71ms)
+			TypeCache.ScanAssembly (61ms)
+		AnalyzeDomain (19ms)
+			BuildScriptInfoCaches (17ms)
+	FinalizeReload (352ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -231,66 +232,22 @@ Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support con
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Launching external process: /Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4741 unused Assets / (7.4 MB). Loaded Objects now: 5626.
-Memory consumption went from 467.5 MB to 460.1 MB.
-Total: 5.539542 ms (FindLiveObjects: 0.296458 ms CreateObjectMapping: 0.126542 ms MarkObjects: 3.579041 ms  DeleteObjects: 1.476500 ms)
-
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5626.
-Memory consumption went from 462.2 MB to 456.7 MB.
-Total: 4.956417 ms (FindLiveObjects: 0.214792 ms CreateObjectMapping: 0.054083 ms MarkObjects: 3.742750 ms  DeleteObjects: 0.882250 ms)
+Unloading 4742 unused Assets / (9.0 MB). Loaded Objects now: 5630.
+Memory consumption went from 167.8 MB to 158.8 MB.
+Total: 5.816750 ms (FindLiveObjects: 0.354125 ms CreateObjectMapping: 0.112958 ms MarkObjects: 3.986708 ms  DeleteObjects: 1.300500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Thread 0x17f323000 may have been prematurely finalized
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.340 seconds
-Domain Reload Profiling: 796ms
-	BeginReloadAssembly (180ms)
-		DisableScriptedObjects (14ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (163ms)
-		TypeCache.Refresh (18ms)
-		AnalyzeDomain (61ms)
-			BuildScriptInfoCaches (58ms)
-	FinalizeReload (340ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4738 unused Assets / (7.7 MB). Loaded Objects now: 5676.
-Memory consumption went from 481.4 MB to 473.7 MB.
-Total: 4.842042 ms (FindLiveObjects: 0.334042 ms CreateObjectMapping: 0.072083 ms MarkObjects: 3.375125 ms  DeleteObjects: 1.004084 ms)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5630.
+Memory consumption went from 162.5 MB to 157.1 MB.
+Total: 5.273459 ms (FindLiveObjects: 0.211583 ms CreateObjectMapping: 0.044333 ms MarkObjects: 4.010917 ms  DeleteObjects: 0.950250 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -301,42 +258,39 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5676.
-Memory consumption went from 469.8 MB to 464.4 MB.
-Total: 19.612541 ms (FindLiveObjects: 1.688625 ms CreateObjectMapping: 0.156459 ms MarkObjects: 16.598209 ms  DeleteObjects: 1.010709 ms)
+Unloading 64 unused Assets / (5.3 MB). Loaded Objects now: 5630.
+Memory consumption went from 161.6 MB to 156.3 MB.
+Total: 6.508083 ms (FindLiveObjects: 0.316958 ms CreateObjectMapping: 0.135959 ms MarkObjects: 4.939458 ms  DeleteObjects: 1.046417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (5.4 MB). Loaded Objects now: 5630.
+Memory consumption went from 160.9 MB to 155.5 MB.
+Total: 4.399709 ms (FindLiveObjects: 0.199042 ms CreateObjectMapping: 0.073250 ms MarkObjects: 3.381416 ms  DeleteObjects: 0.685667 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-23T02:21:21.127514Z
-  Time since last request: 111279.62771820799389 seconds.
-  importAddress: GUID: 84545dec4a9bb413abbf3a35ae1635e5 - Path: Assets/BulletTracer.prefab - Importer: PreviewImporter
-Importing 'GUID: 84545dec4a9bb413abbf3a35ae1635e5 - Path: Assets/BulletTracer.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 84545dec4a9bb413abbf3a35ae1635e5' -> (Import Result ID: '7f215dd20c809689354851b4fa336fc1') in 0.367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3ec4193b0af5e1b803672248c8956c5 DependenciesID=8cd2f98775205db8459bdc30a75ad44a StaticDependenciesID=59aa4156eab1703747b9f5d493129995 
+  Time of request: 2026-11-25T09:07:19.941504Z
+  Time since last request: 17492.24449599999934 seconds.
+  importAddress: GUID: f5ba3a9970ba941c0bdeed3f21e9dd3c - Path: Assets/Scenes/MainMenu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f5ba3a9970ba941c0bdeed3f21e9dd3c - Path: Assets/Scenes/MainMenu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f5ba3a9970ba941c0bdeed3f21e9dd3c' -> (Import Result ID: '8c10264eab7cf1dc5227eff19eaa544e') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdf2559e3aadea8edc471f63c5cac7c1 DependenciesID=91687190ee292d4bf507954b87c119a8 StaticDependenciesID=ecdb5c0f198d853557cdb46ddf6468a5 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4729 unused Assets / (6.7 MB). Loaded Objects now: 5801.
-Memory consumption went from 482.6 MB to 475.9 MB.
-Total: 8.566000 ms (FindLiveObjects: 0.446542 ms CreateObjectMapping: 0.099500 ms MarkObjects: 6.113792 ms  DeleteObjects: 1.833625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-Thread 0x176a93000 may have been prematurely finalized
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 [Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
-<CFData 0xb40dbbe30 [0x1f4af1208]>{length = 6, capacity = 6, bytes = 0xa09a8e1392d4}
+Thread 0x17d907000 may have been prematurely finalized
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Native extension for OSXStandalone target not found
@@ -346,40 +300,440 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.321 seconds
-Domain Reload Profiling: 770ms
-	BeginReloadAssembly (159ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (34ms)
+- Finished resetting the current domain, in  0.401 seconds
+Domain Reload Profiling: 804ms
+	BeginReloadAssembly (125ms)
+		DisableScriptedObjects (12ms)
+		CreateAndSetChildDomain (25ms)
 	RebuildCommonClasses (5ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (250ms)
-		LoadAssemblies (156ms)
-		TypeCache.Refresh (11ms)
-		AnalyzeDomain (63ms)
-			BuildScriptInfoCaches (59ms)
-	FinalizeReload (321ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (150ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (57ms)
+			BuildScriptInfoCaches (55ms)
+	FinalizeReload (402ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4739 unused Assets / (7.6 MB). Loaded Objects now: 5711.
-Memory consumption went from 488.2 MB to 480.6 MB.
-Total: 5.166500 ms (FindLiveObjects: 0.348042 ms CreateObjectMapping: 0.088000 ms MarkObjects: 3.566958 ms  DeleteObjects: 1.106958 ms)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4739 unused Assets / (6.3 MB). Loaded Objects now: 5682.
+Memory consumption went from 181.2 MB to 174.8 MB.
+Total: 5.644459 ms (FindLiveObjects: 0.477750 ms CreateObjectMapping: 0.087333 ms MarkObjects: 3.868959 ms  DeleteObjects: 1.143583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5682.
+Memory consumption went from 169.2 MB to 163.9 MB.
+Total: 6.055459 ms (FindLiveObjects: 0.208375 ms CreateObjectMapping: 0.051708 ms MarkObjects: 4.882083 ms  DeleteObjects: 0.854708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5682.
+Memory consumption went from 168.4 MB to 163.1 MB.
+Total: 5.217625 ms (FindLiveObjects: 0.206000 ms CreateObjectMapping: 0.049667 ms MarkObjects: 4.067917 ms  DeleteObjects: 0.821875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T09:35:32.701289Z
+  Time since last request: 1692.69040841700007 seconds.
+  importAddress: GUID: a32076162aa5243febf10f184b11dd57 - Path: Assets/Mat_Helmet.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a32076162aa5243febf10f184b11dd57 - Path: Assets/Mat_Helmet.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a32076162aa5243febf10f184b11dd57' -> (Import Result ID: '7a38369993a929765dae1c033b11969a') in 0.053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5bb98aa5bbb2b344f35ce57edcaca03c DependenciesID=0c450664a61a2dc09b92d8aee43bad23 StaticDependenciesID=0c087dccfe65229fe5d9730e880e5a3a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T09:35:32.762727Z
+  Time since last request: 0.000045125 seconds.
+  importAddress: GUID: 3b1d8587301fc4476bf2958eedc3601a - Path: Assets/Bullet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3b1d8587301fc4476bf2958eedc3601a - Path: Assets/Bullet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3b1d8587301fc4476bf2958eedc3601a' -> (Import Result ID: '6c3fd1c3a569f7eb708f4499b6634d0d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b15ef45503bbf769e3e0e3f263ba75eb DependenciesID=bebff9000f7370aa2167ddc600c93407 StaticDependenciesID=0c4aebfed2e7836181c8106ad9daff6b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (5.3 MB). Loaded Objects now: 5682.
+Memory consumption went from 168.8 MB to 163.5 MB.
+Total: 5.178917 ms (FindLiveObjects: 0.216875 ms CreateObjectMapping: 0.043250 ms MarkObjects: 4.037834 ms  DeleteObjects: 0.809916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T09:35:40.564541Z
+  Time since last request: 7.789396916 seconds.
+  importAddress: GUID: 39390953b138742eba6811455a2f4908 - Path: Assets/Mat_Visor.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 39390953b138742eba6811455a2f4908 - Path: Assets/Mat_Visor.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 39390953b138742eba6811455a2f4908' -> (Import Result ID: 'e02d4f18aa5ceea71f60b1852bcc713b') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41da0e32a43b366fe6c032e4dc79f535 DependenciesID=61da5adea30a4f8d1b7923053b523f74 StaticDependenciesID=8dc7e1265e2ed8ceb61c6382fae0c27e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5682.
+Memory consumption went from 168.1 MB to 162.8 MB.
+Total: 5.495375 ms (FindLiveObjects: 0.271125 ms CreateObjectMapping: 0.054583 ms MarkObjects: 4.076542 ms  DeleteObjects: 1.036917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T09:36:49.327997Z
+  Time since last request: 68.754597709 seconds.
+  importAddress: GUID: 0597e090d7ff544c7bd14a3602433527 - Path: Assets/Mat_IntelTop.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0597e090d7ff544c7bd14a3602433527 - Path: Assets/Mat_IntelTop.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0597e090d7ff544c7bd14a3602433527' -> (Import Result ID: '7156928da88bde0e54b9ed6addb1c1c1') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aba66dfe3c9eddb98a865ea7945a0df6 DependenciesID=84c9d48d296773d16d3686f6692401ca StaticDependenciesID=5826e3ca9228291b7f11f1177ffc867f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5682.
+Memory consumption went from 167.4 MB to 162.0 MB.
+Total: 5.403084 ms (FindLiveObjects: 0.241875 ms CreateObjectMapping: 0.045666 ms MarkObjects: 4.241458 ms  DeleteObjects: 0.814250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T09:38:48.552664Z
+  Time since last request: 119.214766208 seconds.
+  importAddress: GUID: 0597e090d7ff544c7bd14a3602433527 - Path: Assets/Mat_IntelTop.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0597e090d7ff544c7bd14a3602433527 - Path: Assets/Mat_IntelTop.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0597e090d7ff544c7bd14a3602433527' -> (Import Result ID: '27c8628d9be9f98e3c9cfa5ce2b382fe') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=744c7a9799cd79324c99fbfc6c526dfd DependenciesID=68d225f5ccb0fea8fec21336b115b5f0 StaticDependenciesID=a65fb8cc0367b0a135676671185b1f44 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5682.
+Memory consumption went from 166.6 MB to 161.3 MB.
+Total: 5.032292 ms (FindLiveObjects: 0.214958 ms CreateObjectMapping: 0.062541 ms MarkObjects: 3.844042 ms  DeleteObjects: 0.847166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T09:40:11.073017Z
+  Time since last request: 82.50949249999999 seconds.
+  importAddress: GUID: ee53ca20466904c6da5f80d3d3fa7a2d - Path: Assets/Mat_ExtractionInner.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ee53ca20466904c6da5f80d3d3fa7a2d - Path: Assets/Mat_ExtractionInner.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ee53ca20466904c6da5f80d3d3fa7a2d' -> (Import Result ID: 'e3d37b015d0a7eed5ed6288d2fe64226') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6faee005e820f2b3fc5decee66f2b1a5 DependenciesID=441c4bcddbbfcb4b12d766566c9539ba StaticDependenciesID=2f4fd6ba434eb2364e4c556586a028ef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5682.
+Memory consumption went from 165.9 MB to 160.6 MB.
+Total: 4.932875 ms (FindLiveObjects: 0.219083 ms CreateObjectMapping: 0.045042 ms MarkObjects: 3.753500 ms  DeleteObjects: 0.852917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T09:42:25.91746Z
+  Time since last request: 134.83520679099999 seconds.
+  importAddress: GUID: e1e4f9f1974db460ebc4dd827267b288 - Path: Assets/Mat_Line.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e1e4f9f1974db460ebc4dd827267b288 - Path: Assets/Mat_Line.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e1e4f9f1974db460ebc4dd827267b288' -> (Import Result ID: '4b63e46ea86055cfc47b9b61ae0a0efc') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e637878f7c04a3dc4d9c8d2c5cd0e114 DependenciesID=ffac9d01c0e76248b3616b601d802916 StaticDependenciesID=7b688bdab4690631c58e474cfa37df2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.328 seconds
+Domain Reload Profiling: 756ms
+	BeginReloadAssembly (134ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (158ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (60ms)
+			BuildScriptInfoCaches (57ms)
+	FinalizeReload (328ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4739 unused Assets / (6.8 MB). Loaded Objects now: 5684.
+Memory consumption went from 178.6 MB to 171.8 MB.
+Total: 6.036958 ms (FindLiveObjects: 0.416917 ms CreateObjectMapping: 0.089083 ms MarkObjects: 3.973625 ms  DeleteObjects: 1.491833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (6.6 MB). Loaded Objects now: 5685.
+Memory consumption went from 169.3 MB to 162.6 MB.
+Total: 13.124208 ms (FindLiveObjects: 0.785458 ms CreateObjectMapping: 0.112584 ms MarkObjects: 10.108583 ms  DeleteObjects: 1.995208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.348 seconds
+Domain Reload Profiling: 870ms
+	BeginReloadAssembly (139ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (206ms)
+		TypeCache.Refresh (24ms)
+		AnalyzeDomain (67ms)
+			BuildScriptInfoCaches (64ms)
+	FinalizeReload (348ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4740 unused Assets / (7.4 MB). Loaded Objects now: 5687.
+Memory consumption went from 179.6 MB to 172.2 MB.
+Total: 5.355292 ms (FindLiveObjects: 0.344958 ms CreateObjectMapping: 0.153084 ms MarkObjects: 3.614958 ms  DeleteObjects: 1.182542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
-Thread 0x176a53000 may have been prematurely finalized
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 730ms
+	BeginReloadAssembly (132ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (133ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (58ms)
+			BuildScriptInfoCaches (56ms)
+	FinalizeReload (332ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4740 unused Assets / (6.6 MB). Loaded Objects now: 5689.
+Memory consumption went from 181.6 MB to 175.0 MB.
+Total: 5.255375 ms (FindLiveObjects: 0.301958 ms CreateObjectMapping: 0.083917 ms MarkObjects: 3.697791 ms  DeleteObjects: 1.116917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T10:21:54.138877Z
+  Time since last request: 2368.2067887080002 seconds.
+  importAddress: GUID: e0e961e1edb1f4b1e85e0a885184be25 - Path: Assets/ArrowMarker.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e0e961e1edb1f4b1e85e0a885184be25 - Path: Assets/ArrowMarker.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e0e961e1edb1f4b1e85e0a885184be25' -> (Import Result ID: '4af722bc703f85446d422b69e746b217') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfb4933ec271769acebe589236ef8b51 DependenciesID=fdaa2ef7bdde754c1a0e4b46eabb6fe1 StaticDependenciesID=3355848e994df7733e78e75cda634547 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (5.3 MB). Loaded Objects now: 5689.
+Memory consumption went from 170.6 MB to 165.2 MB.
+Total: 6.420583 ms (FindLiveObjects: 0.261042 ms CreateObjectMapping: 0.080583 ms MarkObjects: 4.876958 ms  DeleteObjects: 1.125458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T10:22:03.587551Z
+  Time since last request: 9.391336792 seconds.
+  importAddress: GUID: e1e4f9f1974db460ebc4dd827267b288 - Path: Assets/Mat_Line.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e1e4f9f1974db460ebc4dd827267b288 - Path: Assets/Mat_Line.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e1e4f9f1974db460ebc4dd827267b288' -> (Import Result ID: 'ff09cd8972031dbbb630f6b91243c8d5') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a91bec697c9d71a51be28239fdd53331 DependenciesID=954aec19df56770f2c70086cb839e417 StaticDependenciesID=f51f31f1e0031a4c5db19134b266048e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T10:22:09.537689Z
+  Time since last request: 5.930926334 seconds.
+  importAddress: GUID: 5fffd22f9377ce548a9d202c841f3f54 - Path: Assets/LowPolyWeapons_LITE - Importer: PreviewImporter
+Importing 'GUID: 5fffd22f9377ce548a9d202c841f3f54 - Path: Assets/LowPolyWeapons_LITE - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5fffd22f9377ce548a9d202c841f3f54' -> (Import Result ID: '04f0734a731d2e714341244161bcf6b3') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=681f7b451100034d8689a2af88228f06 DependenciesID=ea0d1ffb08b06bbd04afcc15d0c5bc21 StaticDependenciesID=9c8db74acd4b3a2e629d5b23223e4427 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (119ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (165ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (62ms)
+			BuildScriptInfoCaches (59ms)
+	FinalizeReload (361ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4740 unused Assets / (7.2 MB). Loaded Objects now: 5691.
+Memory consumption went from 183.7 MB to 176.5 MB.
+Total: 5.581542 ms (FindLiveObjects: 0.382958 ms CreateObjectMapping: 0.089667 ms MarkObjects: 3.841125 ms  DeleteObjects: 1.201958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4731 unused Assets / (6.9 MB). Loaded Objects now: 5692.
+Memory consumption went from 174.3 MB to 167.4 MB.
+Total: 12.878167 ms (FindLiveObjects: 0.602083 ms CreateObjectMapping: 0.092791 ms MarkObjects: 9.922959 ms  DeleteObjects: 2.165000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Native extension for OSXStandalone target not found
@@ -390,47 +744,391 @@ Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
 - Finished resetting the current domain, in  0.332 seconds
-Domain Reload Profiling: 698ms
-	BeginReloadAssembly (114ms)
-		DisableScriptedObjects (9ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (4ms)
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (153ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (218ms)
-		LoadAssemblies (110ms)
-		TypeCache.Refresh (7ms)
-		AnalyzeDomain (57ms)
-			BuildScriptInfoCaches (55ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (213ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (59ms)
+			BuildScriptInfoCaches (56ms)
 	FinalizeReload (332ms)
 		SetupLoadedEditorAssemblies (0ms)
 			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4741 unused Assets / (7.7 MB). Loaded Objects now: 5694.
+Memory consumption went from 184.8 MB to 177.1 MB.
+Total: 5.641625 ms (FindLiveObjects: 0.403291 ms CreateObjectMapping: 0.090667 ms MarkObjects: 3.725083 ms  DeleteObjects: 1.365000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.320 seconds
+Domain Reload Profiling: 707ms
+	BeginReloadAssembly (116ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (132ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (61ms)
+			BuildScriptInfoCaches (59ms)
+	FinalizeReload (320ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4741 unused Assets / (7.4 MB). Loaded Objects now: 5696.
+Memory consumption went from 186.7 MB to 179.3 MB.
+Total: 5.314375 ms (FindLiveObjects: 0.316584 ms CreateObjectMapping: 0.090166 ms MarkObjects: 3.713917 ms  DeleteObjects: 1.138250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 761ms
+	BeginReloadAssembly (147ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (146ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (59ms)
+			BuildScriptInfoCaches (56ms)
+	FinalizeReload (337ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4741 unused Assets / (7.1 MB). Loaded Objects now: 5698.
+Memory consumption went from 188.5 MB to 181.3 MB.
+Total: 5.570250 ms (FindLiveObjects: 0.337125 ms CreateObjectMapping: 0.081000 ms MarkObjects: 3.815334 ms  DeleteObjects: 1.280917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 756ms
+	BeginReloadAssembly (145ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (142ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (59ms)
+			BuildScriptInfoCaches (57ms)
+	FinalizeReload (332ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4741 unused Assets / (7.3 MB). Loaded Objects now: 5700.
+Memory consumption went from 190.4 MB to 183.0 MB.
+Total: 5.596500 ms (FindLiveObjects: 0.387583 ms CreateObjectMapping: 0.086500 ms MarkObjects: 3.773125 ms  DeleteObjects: 1.286875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.350 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (120ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (155ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (68ms)
+			BuildScriptInfoCaches (66ms)
+	FinalizeReload (351ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4741 unused Assets / (6.3 MB). Loaded Objects now: 5702.
+Memory consumption went from 192.1 MB to 185.8 MB.
+Total: 6.662416 ms (FindLiveObjects: 0.482500 ms CreateObjectMapping: 0.091583 ms MarkObjects: 4.097417 ms  DeleteObjects: 1.882958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4732 unused Assets / (6.6 MB). Loaded Objects now: 5703.
+Memory consumption went from 182.8 MB to 176.2 MB.
+Total: 6.829250 ms (FindLiveObjects: 0.420791 ms CreateObjectMapping: 0.089959 ms MarkObjects: 4.933792 ms  DeleteObjects: 1.320375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.319 seconds
+Domain Reload Profiling: 755ms
+	BeginReloadAssembly (124ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (173ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (59ms)
+			BuildScriptInfoCaches (57ms)
+	FinalizeReload (319ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
 			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4742 unused Assets / (7.1 MB). Loaded Objects now: 5705.
+Memory consumption went from 193.2 MB to 186.1 MB.
+Total: 5.331875 ms (FindLiveObjects: 0.325291 ms CreateObjectMapping: 0.081875 ms MarkObjects: 3.652584 ms  DeleteObjects: 1.214042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4732 unused Assets / (6.6 MB). Loaded Objects now: 5705.
+Memory consumption went from 183.9 MB to 177.3 MB.
+Total: 6.136875 ms (FindLiveObjects: 0.328875 ms CreateObjectMapping: 0.083875 ms MarkObjects: 4.208042 ms  DeleteObjects: 1.457125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.338 seconds
+Domain Reload Profiling: 729ms
+	BeginReloadAssembly (134ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (138ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (57ms)
+			BuildScriptInfoCaches (55ms)
+	FinalizeReload (339ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4742 unused Assets / (7.1 MB). Loaded Objects now: 5707.
+Memory consumption went from 194.3 MB to 187.2 MB.
+Total: 5.443459 ms (FindLiveObjects: 0.349084 ms CreateObjectMapping: 0.084208 ms MarkObjects: 3.738042 ms  DeleteObjects: 1.217250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5707.
+Memory consumption went from 182.4 MB to 177.1 MB.
+Total: 4.919542 ms (FindLiveObjects: 0.203084 ms CreateObjectMapping: 0.050666 ms MarkObjects: 3.737875 ms  DeleteObjects: 0.871000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T10:42:31.303642Z
+  Time since last request: 1221.75617683299993 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: '539524dce4298d416aaedd62a0cafe18') in 0.427 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=462b5ea547dafd27eed6daa5b1121007 DependenciesID=1db22e534139fb7da6abd8eb79bd066e StaticDependenciesID=50a28ccdff015f8540c9af1258b619ba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x174547000 may have been prematurely finalized
+<CFData 0x7602c510e0 [0x1f5facfc8]>{length = 6, capacity = 6, bytes = 0xa09a8e1392d4}
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.312 seconds
+Domain Reload Profiling: 776ms
+	BeginReloadAssembly (175ms)
+		DisableScriptedObjects (26ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (148ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (60ms)
+			BuildScriptInfoCaches (58ms)
+	FinalizeReload (313ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (116ms)
 			ProcessInitializeOnLoadMethodAttributes (29ms)
 		AwakeInstancesAfterBackupRestoration (13ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4739 unused Assets / (7.8 MB). Loaded Objects now: 5713.
-Memory consumption went from 490.5 MB to 482.7 MB.
-Total: 5.290666 ms (FindLiveObjects: 0.326917 ms CreateObjectMapping: 0.089125 ms MarkObjects: 3.488500 ms  DeleteObjects: 1.329167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4729 unused Assets / (6.9 MB). Loaded Objects now: 5713.
-Memory consumption went from 481.5 MB to 474.6 MB.
-Total: 8.529167 ms (FindLiveObjects: 0.523458 ms CreateObjectMapping: 0.092334 ms MarkObjects: 6.294792 ms  DeleteObjects: 1.549958 ms)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4742 unused Assets / (6.9 MB). Loaded Objects now: 5741.
+Memory consumption went from 201.2 MB to 194.3 MB.
+Total: 5.338667 ms (FindLiveObjects: 0.348792 ms CreateObjectMapping: 0.087500 ms MarkObjects: 3.593166 ms  DeleteObjects: 1.249667 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -438,7 +1136,7 @@ Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 [Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
-Thread 0x176a53000 may have been prematurely finalized
+Thread 0x16d8b7000 may have been prematurely finalized
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Native extension for OSXStandalone target not found
@@ -448,217 +1146,22 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.349 seconds
-Domain Reload Profiling: 847ms
-	BeginReloadAssembly (171ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (283ms)
-		LoadAssemblies (176ms)
-		TypeCache.Refresh (9ms)
-		AnalyzeDomain (62ms)
-			BuildScriptInfoCaches (58ms)
-	FinalizeReload (350ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4739 unused Assets / (7.1 MB). Loaded Objects now: 5715.
-Memory consumption went from 491.9 MB to 484.8 MB.
-Total: 5.926208 ms (FindLiveObjects: 0.540875 ms CreateObjectMapping: 0.103625 ms MarkObjects: 3.905041 ms  DeleteObjects: 1.303792 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5715.
-Memory consumption went from 480.4 MB to 474.9 MB.
-Total: 4.810584 ms (FindLiveObjects: 0.205375 ms CreateObjectMapping: 0.051333 ms MarkObjects: 3.665750 ms  DeleteObjects: 0.832958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5715.
-Memory consumption went from 479.5 MB to 474.0 MB.
-Total: 4.725625 ms (FindLiveObjects: 0.199917 ms CreateObjectMapping: 0.051875 ms MarkObjects: 3.561333 ms  DeleteObjects: 0.856834 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4730 unused Assets / (6.6 MB). Loaded Objects now: 5716.
-Memory consumption went from 481.3 MB to 474.7 MB.
-Total: 21.538666 ms (FindLiveObjects: 0.554459 ms CreateObjectMapping: 0.097458 ms MarkObjects: 19.042500 ms  DeleteObjects: 1.766083 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Thread 0x176a53000 may have been prematurely finalized
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.322 seconds
-Domain Reload Profiling: 805ms
-	BeginReloadAssembly (163ms)
-		DisableScriptedObjects (12ms)
-		CreateAndSetChildDomain (26ms)
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (123ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (4ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (284ms)
-		LoadAssemblies (206ms)
-		TypeCache.Refresh (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (138ms)
+		TypeCache.Refresh (7ms)
 		AnalyzeDomain (60ms)
 			BuildScriptInfoCaches (58ms)
-	FinalizeReload (322ms)
+	FinalizeReload (331ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4740 unused Assets / (7.5 MB). Loaded Objects now: 5718.
-Memory consumption went from 491.8 MB to 484.3 MB.
-Total: 5.173500 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.083833 ms MarkObjects: 3.634500 ms  DeleteObjects: 1.098625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-Thread 0x16e0ab000 may have been prematurely finalized
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.330 seconds
-Domain Reload Profiling: 709ms
-	BeginReloadAssembly (117ms)
-		DisableScriptedObjects (7ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (225ms)
-		LoadAssemblies (128ms)
-		TypeCache.Refresh (7ms)
-		AnalyzeDomain (58ms)
-			BuildScriptInfoCaches (56ms)
-	FinalizeReload (330ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4740 unused Assets / (7.6 MB). Loaded Objects now: 5720.
-Memory consumption went from 494.2 MB to 486.6 MB.
-Total: 5.534292 ms (FindLiveObjects: 0.400750 ms CreateObjectMapping: 0.088167 ms MarkObjects: 3.648917 ms  DeleteObjects: 1.335958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5720.
-Memory consumption went from 482.6 MB to 477.2 MB.
-Total: 5.805417 ms (FindLiveObjects: 0.217541 ms CreateObjectMapping: 0.056417 ms MarkObjects: 4.573917 ms  DeleteObjects: 0.901334 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-11-23T02:30:38.100945Z
-  Time since last request: 556.62469479200001 seconds.
-  importAddress: GUID: 7af3e0838a72d49858881813d1bfc87e - Path: Assets/BulletPrefab.prefab - Importer: PreviewImporter
-Importing 'GUID: 7af3e0838a72d49858881813d1bfc87e - Path: Assets/BulletPrefab.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 7af3e0838a72d49858881813d1bfc87e' -> (Import Result ID: 'fc0f2f81fc9fc6bd0922b92ee8136f14') in 0.191 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8862fb449c1f3d177b726e958709fedf DependenciesID=6bb33f23a2fc4755c2ef0cb09ad7873b StaticDependenciesID=9b0bdf428c041bc8a243bb4f4b7ff011 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Thread 0x16e0ab000 may have been prematurely finalized
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.326 seconds
-Domain Reload Profiling: 791ms
-	BeginReloadAssembly (168ms)
-		DisableScriptedObjects (21ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (248ms)
-		LoadAssemblies (160ms)
-		TypeCache.Refresh (8ms)
-		AnalyzeDomain (62ms)
-			BuildScriptInfoCaches (60ms)
-	FinalizeReload (326ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
+			BeforeProcessingInitializeOnLoad (53ms)
 			ProcessInitializeOnLoadAttributes (123ms)
 			ProcessInitializeOnLoadMethodAttributes (29ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
@@ -666,34 +1169,17 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4740 unused Assets / (7.3 MB). Loaded Objects now: 5743.
-Memory consumption went from 499.9 MB to 492.6 MB.
-Total: 5.627333 ms (FindLiveObjects: 0.354417 ms CreateObjectMapping: 0.087083 ms MarkObjects: 3.766750 ms  DeleteObjects: 1.358542 ms)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4742 unused Assets / (7.2 MB). Loaded Objects now: 5743.
+Memory consumption went from 203.2 MB to 196.0 MB.
+Total: 5.581000 ms (FindLiveObjects: 0.411083 ms CreateObjectMapping: 0.086458 ms MarkObjects: 3.783542 ms  DeleteObjects: 1.242250 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.32 ms, found 2 plugins.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4730 unused Assets / (6.0 MB). Loaded Objects now: 5743.
-Memory consumption went from 490.9 MB to 484.9 MB.
-Total: 7.691791 ms (FindLiveObjects: 0.581375 ms CreateObjectMapping: 0.102792 ms MarkObjects: 5.038166 ms  DeleteObjects: 1.889417 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
-Thread 0x16e0ab000 may have been prematurely finalized
+Thread 0x16d8b7000 may have been prematurely finalized
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Native extension for OSXStandalone target not found
@@ -703,33 +1189,33 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.335 seconds
-Domain Reload Profiling: 776ms
-	BeginReloadAssembly (147ms)
-		DisableScriptedObjects (11ms)
-		CreateAndSetChildDomain (24ms)
+- Finished resetting the current domain, in  0.347 seconds
+Domain Reload Profiling: 736ms
+	BeginReloadAssembly (117ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (4ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (258ms)
-		LoadAssemblies (166ms)
-		TypeCache.Refresh (9ms)
-		AnalyzeDomain (67ms)
-			BuildScriptInfoCaches (63ms)
-	FinalizeReload (335ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (125ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (57ms)
+			BuildScriptInfoCaches (55ms)
+	FinalizeReload (347ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
+			BeforeProcessingInitializeOnLoad (57ms)
 			ProcessInitializeOnLoadAttributes (126ms)
 			ProcessInitializeOnLoadMethodAttributes (29ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4740 unused Assets / (7.3 MB). Loaded Objects now: 5745.
-Memory consumption went from 501.3 MB to 494.1 MB.
-Total: 5.889042 ms (FindLiveObjects: 0.336750 ms CreateObjectMapping: 0.083125 ms MarkObjects: 4.096208 ms  DeleteObjects: 1.310417 ms)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4742 unused Assets / (6.9 MB). Loaded Objects now: 5745.
+Memory consumption went from 205.1 MB to 198.2 MB.
+Total: 5.620792 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.093583 ms MarkObjects: 3.728542 ms  DeleteObjects: 1.264791 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -739,10 +1225,10 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5745.
-Memory consumption went from 489.6 MB to 484.2 MB.
-Total: 12.646000 ms (FindLiveObjects: 0.411417 ms CreateObjectMapping: 0.088333 ms MarkObjects: 10.974417 ms  DeleteObjects: 1.080500 ms)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5745.
+Memory consumption went from 193.2 MB to 187.9 MB.
+Total: 4.882667 ms (FindLiveObjects: 0.207750 ms CreateObjectMapping: 0.046709 ms MarkObjects: 3.725958 ms  DeleteObjects: 0.847667 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -752,10 +1238,10 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5745.
-Memory consumption went from 488.7 MB to 483.3 MB.
-Total: 4.960584 ms (FindLiveObjects: 0.196792 ms CreateObjectMapping: 0.043375 ms MarkObjects: 3.777208 ms  DeleteObjects: 0.888959 ms)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5745.
+Memory consumption went from 192.4 MB to 187.1 MB.
+Total: 5.361666 ms (FindLiveObjects: 0.206042 ms CreateObjectMapping: 0.041125 ms MarkObjects: 4.118125 ms  DeleteObjects: 0.941209 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -765,16 +1251,414 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5745.
-Memory consumption went from 487.8 MB to 482.3 MB.
-Total: 11.161708 ms (FindLiveObjects: 0.436875 ms CreateObjectMapping: 0.140916 ms MarkObjects: 9.335084 ms  DeleteObjects: 1.163375 ms)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5745.
+Memory consumption went from 191.4 MB to 186.1 MB.
+Total: 12.256250 ms (FindLiveObjects: 0.586333 ms CreateObjectMapping: 0.196334 ms MarkObjects: 10.089375 ms  DeleteObjects: 1.289334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T10:57:54.114394Z
+  Time since last request: 922.37160320800001 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: '9df1b2d6dff24b135bc02c66cbf63509') in 0.185 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=462b5ea547dafd27eed6daa5b1121007 DependenciesID=cfb91a227bbb383697d11bbd7c146a65 StaticDependenciesID=0895f34ded9076458129ce87567d3d19 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T10:58:05.294971Z
+  Time since last request: 10.985926 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: 'f3f80220fd238fbdbe006e1b540ae41c') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=462b5ea547dafd27eed6daa5b1121007 DependenciesID=f46f4ac0d3d79b7aa2b1ed2ec366cb05 StaticDependenciesID=6b17ba24b2f25a62ea9620fff1e44ea1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T10:58:07.661726Z
+  Time since last request: 2.350933833 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: '336ff49dc13492a4aadf678746822886') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=462b5ea547dafd27eed6daa5b1121007 DependenciesID=b1503513fabca752edfc91a2857aa1f8 StaticDependenciesID=af604bd6a2b36d8b19c2b4dbf88fbc9b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T10:58:09.28966Z
+  Time since last request: 1.613480292 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: 'd0c7ba82692f829a577021511f03ea6a') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=462b5ea547dafd27eed6daa5b1121007 DependenciesID=6f6687101a916a49aef89f814778aaae StaticDependenciesID=502ce7e29c8ad88e885802320ab48671 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:03:57.06093Z
+  Time since last request: 347.75465416700001 seconds.
+  importAddress: GUID: 0e05e7d70a62747d3aceb59180baca04 - Path: Assets/GuardSpawner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0e05e7d70a62747d3aceb59180baca04 - Path: Assets/GuardSpawner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0e05e7d70a62747d3aceb59180baca04' -> (Import Result ID: '40fa0d213ba2c6da3e4af4555218a7cd') in 0.062 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6db2c982592ac9be29f165d703f2446a DependenciesID=9b5834b53290f80e384dcc31ad36f2a0 StaticDependenciesID=1d96162d590506b9ec1a55a65b9d9694 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:03:57.139766Z
+  Time since last request: 0.001301458 seconds.
+  importAddress: GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: 'c84ea6e92d72f2f224a3d8c2b5fd1b84') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7460d370c4a769537e37efc65c2feb51 DependenciesID=3742483379d6bb328f105cc7de2cbab9 StaticDependenciesID=6a8a8b41492d72072acce86a2238f015 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:03:57.188852Z
+  Time since last request: 0.000141291 seconds.
+  importAddress: GUID: 74a843a1867b64681bd0f4fe50ae080e - Path: Assets/DirectionIndicator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 74a843a1867b64681bd0f4fe50ae080e - Path: Assets/DirectionIndicator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 74a843a1867b64681bd0f4fe50ae080e' -> (Import Result ID: '3b9904a639dd4e02a640eae0e93a16c5') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c02b6f9ebfd47a0e2554bd7a8033984b DependenciesID=5a144c8ceaec29c77f952b6a44b5d27b StaticDependenciesID=c4e86297f2b3ae5e1d9520aa1eaf5097 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:03:57.19654Z
+  Time since last request: 0.000284042 seconds.
+  importAddress: GUID: 404c79e4a4ae14bd987bd09cea63a584 - Path: Assets/Mat_Arrow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 404c79e4a4ae14bd987bd09cea63a584 - Path: Assets/Mat_Arrow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 404c79e4a4ae14bd987bd09cea63a584' -> (Import Result ID: 'ce64bd61493bae2a01cb6fa764377f6c') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9969faba7f4b04e050dc2efed12cdbe7 DependenciesID=b13c0a72ba23d887e9960d43c1c778a6 StaticDependenciesID=fa72b54aed7316dae39a7a853aa1bd94 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:03:57.20637Z
+  Time since last request: 0.000252292 seconds.
+  importAddress: GUID: ca9ebb28e690148339b8aeeaf264ed03 - Path: Assets/Enemy.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ca9ebb28e690148339b8aeeaf264ed03 - Path: Assets/Enemy.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ca9ebb28e690148339b8aeeaf264ed03' -> (Import Result ID: '9e38c37d9bad9284bcada2446a8fa68d') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3dceaab96d4c345d5012c51793f7783b DependenciesID=05d6301b37915941d3b215e1c5a7da3c StaticDependenciesID=0a1c696493998bf56ebb41d6a56255ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (5.3 MB). Loaded Objects now: 5857.
+Memory consumption went from 200.3 MB to 195.0 MB.
+Total: 11.773833 ms (FindLiveObjects: 0.467083 ms CreateObjectMapping: 0.137000 ms MarkObjects: 9.983542 ms  DeleteObjects: 1.093042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:53:49.010883Z
+  Time since last request: 2991.79654087500012 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: '3e3e8335767af0ac073bd7c58dba9e7b') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e649d1d051459c2300da29b1c147eca DependenciesID=3028e2f366e8f14b09f125cbbdeaa45f StaticDependenciesID=45bf65142ae664f2d91759c5ac834a6d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:53:51.042148Z
+  Time since last request: 2.001727458 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: 'e194e0c94e7013ea88d742d5070e2f4e') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=462b5ea547dafd27eed6daa5b1121007 DependenciesID=e29c5508ff7aa902b2a2dc5aadbabf53 StaticDependenciesID=f6d37b25e64280bbabfdc4975f605e86 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5857.
+Memory consumption went from 199.7 MB to 194.4 MB.
+Total: 6.151625 ms (FindLiveObjects: 0.237875 ms CreateObjectMapping: 0.092417 ms MarkObjects: 4.850041 ms  DeleteObjects: 0.902250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:54:08.656301Z
+  Time since last request: 17.593257375 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: 'ef0cb9386a0ee4ef5ff5893b5a5beb5b') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb621124add1402e65432f1ad922e4d1 DependenciesID=4ec1b55b5ea93de84b67e42a6a7fbadc StaticDependenciesID=a20f4486c219222f1ee7b6b5586a0573 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:57:12.372506Z
+  Time since last request: 183.70471404099999 seconds.
+  importAddress: GUID: 0e05e7d70a62747d3aceb59180baca04 - Path: Assets/GuardSpawner.cs - Importer: PreviewImporter
+Importing 'GUID: 0e05e7d70a62747d3aceb59180baca04 - Path: Assets/GuardSpawner.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0e05e7d70a62747d3aceb59180baca04' -> (Import Result ID: 'f664a39c9387c7c416f3423239647627') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=614ed0695d3c694a901cb114feeb5f99 DependenciesID=5d322749ac630ac2fccdfe612a024dbf StaticDependenciesID=845837e91c8f827f957cbf918d26c03a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T11:57:12.814769Z
+  Time since last request: 0.432546875 seconds.
+  importAddress: GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter
+Importing 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc - Path: Assets/Guard.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6e49e40abb3464ab9b58e6d224da5dcc' -> (Import Result ID: '32f6e753cc81f0005b226f733f15b111') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=462b5ea547dafd27eed6daa5b1121007 DependenciesID=838559f70cbe37338f6afa7670db8a9f StaticDependenciesID=d65f95d36b677e1ab7f52ef3d84217f4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5857.
+Memory consumption went from 198.9 MB to 193.6 MB.
+Total: 7.998875 ms (FindLiveObjects: 0.439584 ms CreateObjectMapping: 0.062041 ms MarkObjects: 5.963458 ms  DeleteObjects: 1.432084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T12:29:06.003836Z
+  Time since last request: 1913.15275745899999 seconds.
+  importAddress: GUID: 872f3cd68836246c2a838fcaccfce0e5 - Path: Assets/Audio/hurt.ogg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 872f3cd68836246c2a838fcaccfce0e5 - Path: Assets/Audio/hurt.ogg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 872f3cd68836246c2a838fcaccfce0e5' -> (Import Result ID: '56b09ef3b0c8b895d2a7dd02ceb6472d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79a86855b0b5f5f3238ad684fec44a80 DependenciesID=5d7e0d146751f77ce892cc5f410b8aec StaticDependenciesID=292a8e6e8b126f45ae719e722eb6f361 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16d8b7000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 755ms
+	BeginReloadAssembly (133ms)
+		DisableScriptedObjects (20ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (145ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (59ms)
+			BuildScriptInfoCaches (56ms)
+	FinalizeReload (342ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4742 unused Assets / (6.9 MB). Loaded Objects now: 5767.
+Memory consumption went from 207.2 MB to 200.3 MB.
+Total: 5.727875 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.096250 ms MarkObjects: 3.891541 ms  DeleteObjects: 1.314292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T12:29:49.052806Z
+  Time since last request: 43.031806417 seconds.
+  importAddress: GUID: 872f3cd68836246c2a838fcaccfce0e5 - Path: Assets/Audio/hurt.ogg - Importer: PreviewImporter
+Importing 'GUID: 872f3cd68836246c2a838fcaccfce0e5 - Path: Assets/Audio/hurt.ogg - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 872f3cd68836246c2a838fcaccfce0e5' -> (Import Result ID: '49332800729d45b22775e95d52d9e403') in 0.137 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a26eee3e4db38eb31a4f4401495b5b9 DependenciesID=751d7baa2d75523dda1655b9d903966d StaticDependenciesID=9089a612b9fe39a5d0775cbaf5ab229a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5770.
+Memory consumption went from 196.4 MB to 191.1 MB.
+Total: 19.949583 ms (FindLiveObjects: 0.887792 ms CreateObjectMapping: 0.180166 ms MarkObjects: 16.886917 ms  DeleteObjects: 1.821292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T12:36:05.600642Z
+  Time since last request: 376.39905495900001 seconds.
+  importAddress: GUID: f2cdc7e34780f4d8aa00510f088f9d9d - Path: Assets/gover.png - Importer: PreviewImporter
+Importing 'GUID: f2cdc7e34780f4d8aa00510f088f9d9d - Path: Assets/gover.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f2cdc7e34780f4d8aa00510f088f9d9d' -> (Import Result ID: 'cfc7077801f73d6b2667c033d0f5eb97') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27fdde3eb0d3f72c5ef2653abb9e0200 DependenciesID=f9cecbee579ad6d7aa59433eb61f8089 StaticDependenciesID=5a8cda29c8e5b0e15805b008c278e715 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T12:36:14.697144Z
+  Time since last request: 9.063350833 seconds.
+  importAddress: GUID: f2cdc7e34780f4d8aa00510f088f9d9d - Path: Assets/gover.png - Importer: PreviewImporter
+Importing 'GUID: f2cdc7e34780f4d8aa00510f088f9d9d - Path: Assets/gover.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f2cdc7e34780f4d8aa00510f088f9d9d' -> (Import Result ID: 'a8038c3221356a0ef71a595bea70cd5e') in 0.035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b37df2481ff40a622181beadddc294ac DependenciesID=712f860aac8437e871a95cc366c061a7 StaticDependenciesID=4f4a5661d3b0bf269c8cc39eb80c2769 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5774.
+Memory consumption went from 195.9 MB to 190.6 MB.
+Total: 23.446250 ms (FindLiveObjects: 1.088792 ms CreateObjectMapping: 0.189334 ms MarkObjects: 20.398125 ms  DeleteObjects: 1.649375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T12:44:33.897686Z
+  Time since last request: 499.15784062500001 seconds.
+  importAddress: GUID: 9a6f2039e8a764f73962bdda862b059e - Path: Assets/pause.png - Importer: PreviewImporter
+Importing 'GUID: 9a6f2039e8a764f73962bdda862b059e - Path: Assets/pause.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9a6f2039e8a764f73962bdda862b059e' -> (Import Result ID: '00900010578ae3b6800a27d199b3fd30') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=117d7573272455b860c8a974785a34ef DependenciesID=dc2a120a6a42365d2de72fb82fa29e4f StaticDependenciesID=d381672a0a8b674b9ce578e7ddf84c9c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-25T12:44:39.074436Z
+  Time since last request: 5.159182584 seconds.
+  importAddress: GUID: 9a6f2039e8a764f73962bdda862b059e - Path: Assets/pause.png - Importer: PreviewImporter
+Importing 'GUID: 9a6f2039e8a764f73962bdda862b059e - Path: Assets/pause.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9a6f2039e8a764f73962bdda862b059e' -> (Import Result ID: 'aae68845402e4cc78641754b7ff2a7de') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dcfe8b1f428d983dae0075084ed2a645 DependenciesID=4a15201111809fa2df5c7121d9661f5f StaticDependenciesID=83f19f8436112f2ff4bfa1dce8be42de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16d8b7000 may have been prematurely finalized
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.348 seconds
+Domain Reload Profiling: 795ms
+	BeginReloadAssembly (152ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (156ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (65ms)
+			BuildScriptInfoCaches (62ms)
+	FinalizeReload (349ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4742 unused Assets / (6.8 MB). Loaded Objects now: 5778.
+Memory consumption went from 208.6 MB to 201.8 MB.
+Total: 6.219667 ms (FindLiveObjects: 0.392250 ms CreateObjectMapping: 0.121250 ms MarkObjects: 4.357000 ms  DeleteObjects: 1.293583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5778.
+Memory consumption went from 196.8 MB to 191.5 MB.
+Total: 4.829875 ms (FindLiveObjects: 0.211417 ms CreateObjectMapping: 0.047375 ms MarkObjects: 3.628791 ms  DeleteObjects: 0.887375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5778.
+Memory consumption went from 196.0 MB to 190.6 MB.
+Total: 4.905583 ms (FindLiveObjects: 0.213542 ms CreateObjectMapping: 0.047042 ms MarkObjects: 3.744792 ms  DeleteObjects: 0.843791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5778.
+Memory consumption went from 195.1 MB to 189.8 MB.
+Total: 11.190750 ms (FindLiveObjects: 0.507500 ms CreateObjectMapping: 0.159209 ms MarkObjects: 9.233666 ms  DeleteObjects: 1.207458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5778.
+Memory consumption went from 194.4 MB to 189.0 MB.
+Total: 6.044166 ms (FindLiveObjects: 0.205167 ms CreateObjectMapping: 0.050417 ms MarkObjects: 4.777666 ms  DeleteObjects: 0.952667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5778.
+Memory consumption went from 193.6 MB to 188.3 MB.
+Total: 6.191542 ms (FindLiveObjects: 0.447834 ms CreateObjectMapping: 0.056000 ms MarkObjects: 4.527417 ms  DeleteObjects: 1.068791 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
-Thread 0x1776c7000 may have been prematurely finalized
-Thread 0x1775eb000 may have been prematurely finalized
+Thread 0x175c47000 may have been prematurely finalized
+Thread 0x175b63000 may have been prematurely finalized
 AssetImportWorker is now disconnected from the server
 Process exiting
 [ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

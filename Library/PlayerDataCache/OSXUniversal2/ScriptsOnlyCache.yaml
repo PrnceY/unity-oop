@@ -3,9 +3,11 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Bullet
     - DetectionManager
+    - DirectionIndicator
     - ExtractionZone
     - GameOver
     - Guard
+    - GuardSpawner
     - HUD
     - HackableTerminal
     - Health
@@ -268,11 +270,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {fileID: 11500000, guid: 9c7a9295a54b548b5acea4cc23be5f5f, type: 3}
     - Class: 114
+      Script: {fileID: 11500000, guid: 74a843a1867b64681bd0f4fe50ae080e, type: 3}
+    - Class: 114
       Script: {fileID: 11500000, guid: 32455c6c07d734dc89056f133e9ecbc5, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: 582f4aca7726743bc9c0703b2dfc8397, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: 48689f41a8d2e49999f51fcdc8945745, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0e05e7d70a62747d3aceb59180baca04, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: 0d8a08970e204449280ef587a6ae972b, type: 3}
     - Class: 114
@@ -915,7 +921,7 @@ ScriptsOnlyBuild:
     className: CompositeShadowCaster2D
   - hash:
       serializedVersion: 2
-      Hash: a69669993c484af23370a1509403b6e2
+      Hash: 4c74b371871d6e3c442e01a6724bc35e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: IntelDocument
@@ -1089,6 +1095,12 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
+      Hash: 62ee9f3f120eb1e295423e9619fc246f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Recoil
+  - hash:
+      serializedVersion: 2
       Hash: 40be2ad159aa1a2b72ecc74cb38c7824
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
@@ -1195,6 +1207,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 679703a1202cf73c3f1849a21f3969d2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Bullet
   - hash:
       serializedVersion: 2
       Hash: cf32d98954e63b8e30e9334b152e9b8e
@@ -1479,7 +1497,7 @@ ScriptsOnlyBuild:
     className: RemoteInputPlayerConnection
   - hash:
       serializedVersion: 2
-      Hash: c1138f67abbc47d9aafa78404e83a5ce
+      Hash: e546b599e53a91fdf42fc5e09bc6b8e7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Health
@@ -1635,16 +1653,22 @@ ScriptsOnlyBuild:
     className: VertexJitter
   - hash:
       serializedVersion: 2
-      Hash: 679703a1202cf73c3f1849a21f3969d2
+      Hash: 56b2a8c39a9924a79e763f9c7093da22
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Bullet
+    className: ArrowMarker
   - hash:
       serializedVersion: 2
-      Hash: 62ee9f3f120eb1e295423e9619fc246f
+      Hash: e1aa0569c7c6c3266b89133657fa851e
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Recoil
+    className: DirectionIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: ed592a7817be37a5cf3b846345bae93c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GuardSpawner
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

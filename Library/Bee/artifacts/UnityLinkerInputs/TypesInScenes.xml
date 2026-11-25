@@ -2,9 +2,11 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Bullet" preserve="nothing"/>
 		<type fullname="DetectionManager" preserve="nothing"/>
+		<type fullname="DirectionIndicator" preserve="nothing"/>
 		<type fullname="ExtractionZone" preserve="nothing"/>
 		<type fullname="GameOver" preserve="nothing"/>
 		<type fullname="Guard" preserve="nothing"/>
+		<type fullname="GuardSpawner" preserve="nothing"/>
 		<type fullname="HackableTerminal" preserve="nothing"/>
 		<type fullname="Health" preserve="nothing"/>
 		<type fullname="HUD" preserve="nothing"/>

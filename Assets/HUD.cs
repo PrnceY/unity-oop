@@ -34,7 +34,7 @@ public class HUD : MonoBehaviour
         if (weaponHolder != null)
         {
             Weapon w = weaponHolder.CurrentWeapon;
-            if (w != null) ammoText.text = $"{w.WeaponName} | {w.CurrentAmmo}";
+        if (w != null) ammoText.text = $"{w.WeaponName} | {w.CurrentAmmo}";
         }
     }
 

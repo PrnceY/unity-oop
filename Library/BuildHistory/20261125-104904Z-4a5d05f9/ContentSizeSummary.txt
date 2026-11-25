@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Build Report - Content Size Statistics
+Serialized File count                      6
+Resource file count                        5
+Object count                            2063
+Serialized Files                       2.5 mb	  15.3%
+Serialized Files Headers              65.4 kb	   0.4%
+Resource data (Texture,Audio...)      13.7 mb	  84.7%
+Total build size                      16.1 mb
+
+Largest Types:
+    12.4 mb	  77.0% Texture2D
+     1.1 mb	   6.9% Shader
+   714.9 kb	   4.3% TextRendering::Font
+   512.2 kb	   3.1% Cubemap
+   441.2 kb	   2.7% AudioClip
+   415.0 kb	   2.5% Mesh
+
+Largest Assets:
+     4.5 mb	  27.9% Assets/MenuBG.png
+     1.3 mb	   8.3% Assets/LowPolyWeapons_LITE/Texture/WeaponsLite_Texture_01.png
+     1.0 mb	   6.4% Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+     1.0 mb	   6.2% Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset
+   554.8 kb	   3.4% Resources/unity_builtin_extra
+   344.5 kb	   2.1% Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+   341.5 kb	   2.1% Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+   341.5 kb	   2.1% Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+   338.1 kb	   2.0% Assets/LowPolyWeapons_LITE/Models/Weapon_02.fbx
+   302.1 kb	   1.8% Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+   262.6 kb	   1.6% Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga
+   215.7 kb	   1.3% Assets/Audio/pistol.wav
+   170.8 kb	   1.0% Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+   170.8 kb	   1.0% Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+   167.1 kb	   1.0% Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+-------------------------------------------------------------------------------

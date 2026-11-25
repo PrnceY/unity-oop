@@ -2,12 +2,21 @@ Unity Editor version:    6000.6.9f1 (8c45277fb9c5)
 Branch:                  6000.6/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 26.7.3 (Build 25G342)
-Darwin version:          25.6.0
+macOS version:           Version 27.2.1 (Build 26B131)
+Darwin version:          27.2.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-11-22T04:03:56Z
+Date:                    2026-11-25T05:04:29Z
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 6af4cd5bbd58de3d1bdf14e634677e71
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/MacOS/Unity
@@ -21,9 +30,9 @@ AssetImportWorkerHW1
 -logFile
 Logs/AssetImportWorkerHW1.log
 -srvPort
-53979
+50115
 -parentPid
-20576
+4814
 -analyticsCloudUserId
 18968549974931
 -analyticsCloudProjectId
@@ -86,30 +95,21 @@ Successfully changed project path to: /Users/princeyu/SpyGame
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8376410688]  Target information:
+Player connection [8611631872]  Target information:
 
-Player connection [8376410688]  * "[IP] 192.168.50.169 [Port] 0 [Flags] 2 [Guid] 2205458210 [EditorId] 2205458210 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8611631872]  * "[IP] 192.168.50.169 [Port] 0 [Flags] 2 [Guid] 959823333 [EditorId] 959823333 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8376410688] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8376410688] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8611631872] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8611631872] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
-Initialising UDS system complete:
-  - System type: Client
-  - Resource namespace: 6af4cd5bbd58de3d1bdf14e634677e71
-  - Shared memory size: 1073741824
-  - Command buffer id: 1052672
-  - Command buffer size: 8192
-  - Hashmap size: 4194304
-  - Service connected: true
-  - Service working directory: Library/DataStore/
 Active build profile path: `Assets/Settings/Build Profiles/macOS.asset`
 Got setting from build profile YAML, name `m_BuildTarget`, value `2`
 Got setting from build profile YAML, name `m_Subtarget`, value `2`
-Refreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.56 ms, found 2 plugins.
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -139,13 +139,13 @@ Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Res
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56617
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56859
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.9f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001179 seconds.
+Registered in 0.001369 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -154,33 +154,33 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.343 seconds
-Domain Reload Profiling: 624ms
-	BeginReloadAssembly (72ms)
+- Finished resetting the current domain, in  0.279 seconds
+Domain Reload Profiling: 556ms
+	BeginReloadAssembly (69ms)
 	RebuildCommonClasses (3ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (29ms)
 	LoadAllAssembliesAndSetupDomain (167ms)
-		LoadAssemblies (72ms)
-		TypeCache.Refresh (119ms)
-			TypeCache.ScanAssembly (110ms)
-		AnalyzeDomain (0ms)
-	FinalizeReload (344ms)
+		LoadAssemblies (69ms)
+		TypeCache.Refresh (121ms)
+			TypeCache.ScanAssembly (111ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (280ms)
 		SetupLoadedEditorAssemblies (0ms)
 			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (42ms)
-			ProcessInitializeOnLoadMethodAttributes (205ms)
+			ProcessInitializeOnLoadAttributes (43ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
 Initializing Unity extensions:
 [Licensing::Module] Connecting to the Unity Licensing Client...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu" at "2026-11-22T04:03:57.360239Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu" at "2026-11-25T05:04:31.029994Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.19.0+4cc3dda
-  Session Id:              d919adbcbab443fb98de9fbd206c9bcf
-  Correlation Id:          9096e29985c6d10e802021664bc1e9b4
-  External correlation Id: 6655927170215288972
+  Session Id:              ecb5524bd3184795a7dea2162a565494
+  Correlation Id:          048b6f75b380aaae9d479ca19b1b2ae2
+  External correlation Id: 6421687004116227070
   Machine Id:              objKsXFLQghjl6fGlnKQLMooNEM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-princeyu" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu-notifications" at "2026-11-22T04:03:57.412223Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-princeyu" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-princeyu-notifications" at "2026-11-25T05:04:31.068681Z"
 [Licensing::Module] The re-connection attempt was successful.
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -204,24 +204,24 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.377 seconds
-Domain Reload Profiling: 777ms
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 730ms
 	BeginReloadAssembly (97ms)
 		DisableScriptedObjects (6ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (5ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (4ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (266ms)
-		LoadAssemblies (138ms)
-		TypeCache.Refresh (74ms)
-			TypeCache.ScanAssembly (64ms)
-		AnalyzeDomain (20ms)
-			BuildScriptInfoCaches (18ms)
-	FinalizeReload (377ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (123ms)
+		TypeCache.Refresh (71ms)
+			TypeCache.ScanAssembly (61ms)
+		AnalyzeDomain (19ms)
+			BuildScriptInfoCaches (17ms)
+	FinalizeReload (351ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (127ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (129ms)
 			ProcessInitializeOnLoadMethodAttributes (28ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 AcceleratorClientConnectionCallback - disconnected - :0
@@ -232,56 +232,11 @@ Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support con
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Launching external process: /Applications/Unity/Hub/Editor/6000.6.9f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4741 unused Assets / (8.9 MB). Loaded Objects now: 5626.
-Memory consumption went from 467.8 MB to 458.9 MB.
-Total: 5.291333 ms (FindLiveObjects: 0.446917 ms CreateObjectMapping: 0.084666 ms MarkObjects: 3.387542 ms  DeleteObjects: 1.305042 ms)
+Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4742 unused Assets / (8.6 MB). Loaded Objects now: 5630.
+Memory consumption went from 167.7 MB to 159.2 MB.
+Total: 5.223500 ms (FindLiveObjects: 0.304750 ms CreateObjectMapping: 0.076375 ms MarkObjects: 3.538709 ms  DeleteObjects: 1.246750 ms)
 
-========================================================================
-Received Import Request.
-  Time of request: 2026-11-22T04:06:57.686371Z
-  Time since last request: 91833.85526675000438 seconds.
-  importAddress: GUID: 125cb55b44b24c4393181402bc6200e6 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset - Importer: PreviewImporter
-Importing 'GUID: 125cb55b44b24c4393181402bc6200e6 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 125cb55b44b24c4393181402bc6200e6' -> (Import Result ID: '6a382cd65f94945bd7100fec940a8c44') in 0.337 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a928c276a19461b538f445c2686f5706 DependenciesID=d12a7f74364e6cc6c20ae8155c50152a StaticDependenciesID=48d2b4ea18bde02ddab1176a1e1219e8 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time of request: 2026-11-22T04:07:00.158517Z
-  Time since last request: 2.126906541 seconds.
-  importAddress: GUID: c9f6d0e7bc8541498c9a4799ba184ede - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf - Importer: PreviewImporter
-Importing 'GUID: c9f6d0e7bc8541498c9a4799ba184ede - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: c9f6d0e7bc8541498c9a4799ba184ede' -> (Import Result ID: '30b2999880c9c7631a0104608ab572da') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dc8b4b3feccddea42f7c46b40d6efc8 DependenciesID=092b2917139eee74e638397ae8ec700e StaticDependenciesID=ae5261bde54ee2acade497cf80ab1dea 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time of request: 2026-11-22T04:07:06.982519Z
-  Time since last request: 6.796186 seconds.
-  importAddress: GUID: 5dd49b3eacc540408c98eee0de38e0f1 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf - Importer: PreviewImporter
-Importing 'GUID: 5dd49b3eacc540408c98eee0de38e0f1 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 5dd49b3eacc540408c98eee0de38e0f1' -> (Import Result ID: '18a2f04c6a268bc82158fe9c5effec6d') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=474832ae971046ca2e9f7070771d45ee DependenciesID=8a3df5b05bccb96fafad0687ff8ba819 StaticDependenciesID=8042476ef788874ca2e80c969c2e305b 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time of request: 2026-11-22T04:07:07.597854Z
-  Time since last request: 0.60128225 seconds.
-  importAddress: GUID: 1cdc5b506b1a4a33a53c30669ced1f51 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg - Importer: PreviewImporter
-Importing 'GUID: 1cdc5b506b1a4a33a53c30669ced1f51 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 1cdc5b506b1a4a33a53c30669ced1f51' -> (Import Result ID: '2496f2ed3a0aa004e50cd92e290ecdb0') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb3c17f814813048bf14d77cf94d10bc DependenciesID=737b90bf2539c4ab3a7a94bccb879005 StaticDependenciesID=fbbf31250a2797f18af68292e54fad02 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-11-22T04:07:07.676177Z
-  Time since last request: 0.065115917 seconds.
-  importAddress: GUID: 6eb184de103d4b3f812b38561065192f - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg - Importer: PreviewImporter
-Importing 'GUID: 6eb184de103d4b3f812b38561065192f - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 6eb184de103d4b3f812b38561065192f' -> (Import Result ID: 'c88a1bacc27ad9be5ceb2aa377c074ac') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22952e176d827fc9d65bc9eb80d2e4bf DependenciesID=8124d4f50c7d4c4ee17733412d6ae539 StaticDependenciesID=88dc3efd59a8d3d7db645670bda66332 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
@@ -289,10 +244,10 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (5.5 MB). Loaded Objects now: 5790.
-Memory consumption went from 473.8 MB to 468.3 MB.
-Total: 5.756333 ms (FindLiveObjects: 0.208291 ms CreateObjectMapping: 0.067833 ms MarkObjects: 4.512584 ms  DeleteObjects: 0.910750 ms)
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (5.3 MB). Loaded Objects now: 5630.
+Memory consumption went from 161.8 MB to 156.4 MB.
+Total: 11.452000 ms (FindLiveObjects: 0.477541 ms CreateObjectMapping: 0.135125 ms MarkObjects: 9.479250 ms  DeleteObjects: 1.257292 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -302,10 +257,10 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (5.5 MB). Loaded Objects now: 5790.
-Memory consumption went from 473.0 MB to 467.5 MB.
-Total: 5.394375 ms (FindLiveObjects: 0.206250 ms CreateObjectMapping: 0.061709 ms MarkObjects: 4.256750 ms  DeleteObjects: 0.811459 ms)
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (5.3 MB). Loaded Objects now: 5630.
+Memory consumption went from 161.0 MB to 155.6 MB.
+Total: 7.435916 ms (FindLiveObjects: 0.240416 ms CreateObjectMapping: 0.050500 ms MarkObjects: 5.952084 ms  DeleteObjects: 1.132250 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -315,17 +270,16 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (5.5 MB). Loaded Objects now: 5790.
-Memory consumption went from 472.1 MB to 466.6 MB.
-Total: 7.661291 ms (FindLiveObjects: 0.260084 ms CreateObjectMapping: 0.086166 ms MarkObjects: 6.268500 ms  DeleteObjects: 0.975041 ms)
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (5.4 MB). Loaded Objects now: 5630.
+Memory consumption went from 160.2 MB to 154.9 MB.
+Total: 4.928333 ms (FindLiveObjects: 0.199625 ms CreateObjectMapping: 0.051625 ms MarkObjects: 3.817625 ms  DeleteObjects: 0.803541 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Editor is closing down
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AcceleratorClientConnectionCallback - disconnected - :0
-Thread 0x176107000 may have been prematurely finalized
-Thread 0x17601f000 may have been prematurely finalized
+Thread 0x174247000 may have been prematurely finalized
+Thread 0x174167000 may have been prematurely finalized
 AssetImportWorker is now disconnected from the server
 Process exiting
 [ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

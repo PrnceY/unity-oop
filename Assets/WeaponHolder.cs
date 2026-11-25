@@ -17,7 +17,7 @@ public class WeaponHolder : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R)) w.StartReload();
 
         bool fire = w.IsAutomatic ? Input.GetMouseButton(0) : Input.GetMouseButtonDown(0);
-        if (fire) w.TryFire();
+        if (fire && Time.timeScale > 0) w.TryFire();
     }
 
     void Equip(int index)

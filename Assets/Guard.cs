@@ -22,6 +22,8 @@ public class Guard : Enemy
     {
         if (patrolPoints.Length == 0) return;
         Transform target = patrolPoints[patrolIndex];
+        Vector3 dir = (target.position - transform.position).normalized;
+        if (dir != Vector3.zero) transform.rotation = Quaternion.LookRotation(dir);
         transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
         if (Vector3.Distance(transform.position, target.position) < 0.3f)
             patrolIndex = (patrolIndex + 1) % patrolPoints.Length;
@@ -29,6 +31,8 @@ public class Guard : Enemy
 
     void DoChase()
     {
+        Vector3 dir = (player.position - transform.position).normalized;
+        if (dir != Vector3.zero) transform.rotation = Quaternion.LookRotation(dir);
         transform.position = Vector3.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
         DetectionManager.Instance?.AddSuspicion(15f * Time.deltaTime);
     }
